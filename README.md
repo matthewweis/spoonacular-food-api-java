@@ -1,11 +1,38 @@
+# HOW TO USE
+
+If using a build system, select your build tool under the "how to" section of https://jitpack.io/#MatthewWeisCaps/spoonacular-food-api-java for example usage. For example, in maven add the following under the `<project>` section in your pom.xml:
+
+```
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+
+<dependencies>
+    <dependency>
+        <groupId>com.github.MatthewWeisCaps</groupId>
+        <artifactId>spoonacular-food-api-java</artifactId>
+        <version>1.0</version>
+    </dependency>
+</dependencies>
+```
+
+If not using a build tool, you can pull a prebuilt jar from 
+https://jitpack.io/com/github/MatthewWeisCaps/spoonacular-food-api-java/1.0/spoonacular-food-api-java-1.0-javadoc.jar, and the source jar from
+https://jitpack.io/com/github/MatthewWeisCaps/spoonacular-food-api-java/1.0/spoonacular-food-api-java-1.0-sources.jar
+
+A directory of all prebuilt resources can be found at https://jitpack.io/com/github/MatthewWeisCaps/spoonacular-food-api-java/1.0
+
 # MODIFICATION NOTICE
 
 This repository is a fork / redistribution for the java port of https://spoonacular.com/food-api/sdk.
-The original source is https://github.com/ddsky/spoonacular-api-clients/tree/master/java. Changes made include (1)
-deleting tests (due to compile error), (2) deleting alternative build system / check (to help jitpack out), (3)
-this change to the README and (4) copying the original top-level LICENSE into this repository for preservation.
+The original source is available at https://github.com/ddsky/spoonacular-api-clients/tree/master/java. Changes made include (1)
+deleting tests (due to compile-time errors), (2) deleting alternative build / verification systems (to promote compliance with jitpack), (3)
+notices prepended to this README, and (4) preserving the project's top-level LICENSE by copying it into this repo.
 
-The only purpose of this fork is to make adding it as a maven/gradle/sbt dependency easier via jitpack.
+The only purpose of this fork is to make adding it as a maven/gradle/sbt dependency easier via jitpack. There are no functional changes.
 
 # java-client
 
